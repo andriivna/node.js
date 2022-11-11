@@ -4,12 +4,6 @@
     <list default="true" id="43ceffd3-ede4-4919-86ff-0ac6362a0b8d" name="Changes" comment="node js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/boys/max.json" beforeDir="false" afterPath="$PROJECT_DIR$/boys/max.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/boys/oleg.json" beforeDir="false" afterPath="$PROJECT_DIR$/boys/oleg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/boys/olena.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/girls/anna.json" beforeDir="false" afterPath="$PROJECT_DIR$/girls/anna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/girls/olga.json" beforeDir="false" afterPath="$PROJECT_DIR$/girls/olga.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/girls/stas.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,7 +62,7 @@
       <updated>1668029308847</updated>
       <workItem from="1668029310737" duration="2893000" />
       <workItem from="1668096221235" duration="595000" />
-      <workItem from="1668154474811" duration="1605000" />
+      <workItem from="1668154474811" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="node js">
       <created>1668031794938</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668031794938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="node js">
+      <created>1668156133320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668156133320</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
