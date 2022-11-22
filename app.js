@@ -1,33 +1,35 @@
-const fs = require('node:fs');
+const express = require('express');
 
-// fs.readFile('./text.txt', (err, data)=>{
-//     console.log(err, 'ERR');
-//
-//     console.log(data.toString());
+const userDb = require('./dataBase/users')
+
+const app = express();
+
+app.get('/users', (req, res) => {
+    console.log('USERS ENDPOINT!')
+
+    // res.json({
+    //     user:"Anna"
+    // })
+
+    //res.end('ITS OK')// закінчує запит чимось(тільки стрічкою, не об'єктом)
+    //res.status(402).json('ITS OK')
+    //res.sendFile('./') // Посилає файли(рідко використовується, або займається певна людина,яка працює з файлими)
+
+    res.json(userDb)
+
+}); //по дефолту браузер вміє тільки виконувати метод get
+
+app.get('/users/:userId',(req, res)=>{
+
+    const{userId}=req.params
+
+    res.json(userDb[userId]);
+})
+
+// app.get('/',(req, res)=>{
+//     res.json("WELCOME")
 // })
 
-// fs.appendFile('./text.txt', 'HELLO CHAT \n', (err)=>{
-//     console.log('ERR', err)
-// })
-
-// fs.writeFile('./text.txt', 'WRITE FILE',(err)=>{
-//     console.log('err', err)
-// })
-
-// fs.readFile('./text.txt' ,(err,data)=>{
-//     fs.appendFile('./copy.txt', data, ()=>{})
-// })
-
-// fs.mkdir('./students', (err)=>{
-//
-// })
-
-// fs.appendFile('./students/data.json', JSON.stringify({name:'Dima'}), (err)=>{
-//
-// })
-
-// fs.truncate --//очищає файл
-// fs.unlink --//стирає файл(видаляє)
-//fs.rmdir --//видаляє диреторію
-//{recursive:true} --//видаляє директорію разом зі змістом
-//fs.rename() --//приймає старий шлях і новий шлях. Тобто просто переіменовує
+app.listen(5000, ()=>{  //слухає порт, сказувати порт який потрібно прослухати
+    console.log('Server listen 5000')
+})
