@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b64add61-ef18-4d35-90bf-52ad1d967211" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dataBase/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="bc5e0409-d7d9-4749-a5b9-cf664ff7e4c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/services/file.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.js.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBase/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="lesson1_lecture" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HtjL33Z5IA6cBOqhqiQD0CsEq9" />
+  <component name="ProjectId" id="2Hun445YFI6oDawIUMc2Io0zabn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,23 +36,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "javascript.nodejs.core.library.configured.version": "16.17.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.3",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\IdeaProjects\node.js\dataBase" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b64add61-ef18-4d35-90bf-52ad1d967211" name="Changes" comment="" />
-      <created>1669111214991</created>
+      <changelist id="bc5e0409-d7d9-4749-a5b9-cf664ff7e4c9" name="Changes" comment="" />
+      <created>1669143642178</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669111214991</updated>
-      <workItem from="1669111216313" duration="3382000" />
+      <updated>1669143642178</updated>
+      <workItem from="1669143643370" duration="403000" />
+      <workItem from="1669281605658" duration="3219000" />
     </task>
     <servers />
   </component>
@@ -77,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
